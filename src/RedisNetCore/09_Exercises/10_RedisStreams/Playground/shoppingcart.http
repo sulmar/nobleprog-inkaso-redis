@@ -1,0 +1,24 @@
+@host = localhost:7156
+
+@productId = 1
+
+@incrementBy = 5
+
+
+###
+
+GET https://{{host}}/cart
+
+###
+
+POST https://{{host}}/cart/{{productId}}
+
+### 
+
+PUT https://{{host}}/cart/{{productId}}
+
+### 
+
+DELETE https://{{host}}/cart/{{productId}}
+
+###

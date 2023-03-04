@@ -1,0 +1,13 @@
+@host = localhost:7273
+
+@id = 1
+
+###
+
+GET https://{{host}}/users/
+
+### 
+
+GET https://{{host}}/users/{{id}}
+
+###

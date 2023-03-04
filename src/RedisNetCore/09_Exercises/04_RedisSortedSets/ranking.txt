@@ -1,0 +1,99 @@
+Miejsce	Ranking	Imię i nazwisko	Data	Państwo
+1	2882	Magnus Carlsen	2014.05.01	 Norwegia
+2	2851	Garri Kasparow	1999.07.01	 Rosja
+3	2844	Fabiano Caruana	2014.10.01	 Stany Zjednoczone
+4	2830	Lewon Aronian	2014.03.01	 Armenia
+5	2822	Wesley So	2017.02.01	 Stany Zjednoczone
+6	2817	Viswanathan Anand	2011.03.01	 Indie
+7	2813	Weselin Topałow	2006.07.01	 Bułgaria
+8	2811	Władimir Kramnik	2013.05.01	 Rosja
+9	2810	Aleksandr Griszczuk	2014.12.01	 Rosja
+10	2804	Alireza Firuzdża	2021.12.01	 Francja
+11	2798	Hikaru Nakamura	2015.03.01	 Stany Zjednoczone
+11	2798	Anisz Giri	2015.10.01	 Holandia
+12	2793	Tejmur Radżabow	2012.11.01	 Azerbejdżan
+13	2788	Aleksandr Moroziewicz	2008.07.01	 Rosja
+14	2788	Siergiej Kariakin	2011.07.01	 Rosja
+15	2787	Wasyl Iwanczuk	2007.10.01	 Ukraina
+16	2785	Bobby Fischer	1972.07.01	 Stany Zjednoczone
+17	2780	Anatolij Karpow	1994.07.01	 Rosja
+18	2777	Boris Gelfand	2013.11.01	 Izrael
+19	2775	Szachrijar Mammedjarow	2013.08.01	 Azerbejdżan
+20	2775	Maxime Vachier-Lagrave	2015.02.01	 Francja
+21	2769	Piotr Swidler	2013.05.01	 Rosja
+22	2768	Leinier Domínguez Pérez	2014.05.01	 Kuba
+23	2764	Rusłan Ponomariow	2011.07.01	 Ukraina
+24	2763	Peter Leko	2005.04.01	 Węgry
+25	2763	Gata Kamski	2013.07.01	 Stany Zjednoczone
+26	2761	Pawło Eljanow	2010.09.01	 Ukraina
+27	2761	Wugar Gaszimow	2012.01.01	 Azerbejdżan
+28	2761	Michael Adams	2013.09.01	 Anglia
+29	2760	Dmitrij Jakowienko	2009.01.01	 Rosja
+30	2756	Wang Yue	2010.11.01	 Chiny
+31	2755	Aleksiej Szyrow	2008.01.01	 Hiszpania
+32	2755	Ding Liren	2015.02.01	 Chiny
+33	2752	Wang Hao	2013.01.01	 Chiny
+34	2751	Siergiej Mowsesjan	2009.01.01	 Słowacja
+35	2749	Étienne Bacrot	2013.11.01	 Francja
+36	2747	Nikita Witiugow	2014.03.01	 Rosja
+37	2745	Jewgienij Tomaszewski	2015.03.01	 Rosja
+38	2750	Radosław Wojtaszek	2017.01.01	 Polska
+39	2744	David Navara	2015.04.01	 Czechy
+40	2739	Jewgienij Bariejew	2003.10.01	 Rosja
+41	2737	Arkadij Naiditsch	2013.12.01	 Niemcy
+42	2737	Dmitrij Andriejkin	2014.12.01	 Rosja
+43	2735	Judit Polgár	2005.07.01	 Węgry
+44	2735	Jan Niepomniaszczij	2012.01.01	 Rosja
+45	2734	Wiktor Bołogan	2012.08.01	 Mołdawia
+46	2734	Baadur Dżobawa	2012.09.01	 Gruzja
+47	2732	Władimir Małachow	2010.07.01	 Rosja
+48	2731	Pentala Harikrishna	2015.04.01	 Indie
+49	2730	Li Chao	2014.12.01	 Chiny
+50	2726	Zoltán Almási	2011.07.01	 Węgry
+51	2726	Ołeksandr Moisejenko	2011.09.01	 Ukraina
+52	2725	Jewgienij Aleksiejew	2009.09.01	 Rosja
+53	2725	Andrij Wołokitin	2013.03.01	 Ukraina
+54	2724	Ni Hua	2009.04.01	 Chiny
+55	2724	Francisco Vallejo Pons	2011.07.01	 Hiszpania
+56	2724	Yu Yangyi	2015.01.01	 Chiny
+57	2723	Anton Korobow	2014.01.01	 Ukraina
+58	2722	Bu Xiangzhi	2014.09.01	 Chiny
+59	2720	Krishnan Sasikiran	2012.05.01	 Indie
+60	2720	Aleksandr Riazancew	2012.07.01	 Rosja
+61	2720	Ołeksandr Areszczenko	2012.12.01	 Ukraina
+62	2720	Richárd Rapport	2014.10.01	 Węgry
+63	2718	Laurent Fressinet	2010.09.01	 Francja
+64	2717	Lê Quang Liêm	2011.09.01	 Wietnam
+65	2717	Lázaro Bruzón Batista	2012.10.01	 Kuba
+66	2715	Walerij Sałow	1995.01.01	 Rosja
+67	2714	Loek van Wely	2001.10.01	 Holandia
+68	2714	Denis Chismatullin	2014.03.01	 Rosja
+69	2713	Wladimir Hakopian	2006.07.01	 Armenia
+70	2713	Iwan Czeparinow	2008.01.01	 Bułgaria
+71	2713	Luke McShane	2012.07.01	 Anglia
+72	2712	Nigel Short	2004.04.01	 Anglia
+73	2712	Rustam Kasimdżanow	2015.03.01	 Uzbekistan
+74	2711	Aleksiej Driejew	2011.07.01	 Rosja
+75	2710	Ołeksandr Bielawski	1997.07.01	 Słowenia
+76	2710	Aleksandr Motylow	2009.07.01	 Rosja
+77	2710	Jurij Kryworuczko	2014.10.01	 Ukraina
+78	2708	Zachar Jefimenko	2011.03.01	 Ukraina
+79	2707	Liviu-Dieter Nisipeanu	2005.10.01	 Rumunia
+80	2707	Ernesto Inarkijew	2012.05.01	 Rosja
+81	2706	Ivan Sokolov	2004.01.01	 Holandia
+82	2706	Ferenc Berkes	2011.09.01	 Węgry
+83	2706	Siergiej Rublewski	2013.11.01	 Rosja
+84	2706	Wei Yi	2015.03.01	 Chiny
+85	2705	Michaił Tal	1980.01.01	 ZSRR
+86	2705	Wadim Miłow	2008.07.01	 Szwajcaria
+87	2705	Boris Graczow	2012.03.01	 Rosja
+88	2704	Viktor Láznička	2012.01.01	 Czechy
+89	2703	Emil Sutowski	2012.01.01	 Izrael
+90	2702	Michał Krasenkow	2000.07.01	 Polska
+91	2702	Ilja Smirin	2001.07.01	 Izrael
+92	2702	Aleksandr Chalifman	2001.10.01	 Rosja
+93	2702	Zurab Azmaiparaszwili	2003.07.01	 Gruzja
+94	2702	Romain Édouard	2014.06.01	 Francja
+95	2701	Aleksander Oniszczuk	2010.07.01	 Stany Zjednoczone
+96	2700	Peter Heine Nielsen	2010.07.01	 Dania
+97	2700	Igor Łysyj	2015.01.01	 Rosja
