@@ -17,7 +17,7 @@ To take this course you'll need the following.
 ## Clone the Course Git Repository
 
 ```
-git clone https://github.com/nobleprog-redis-dotnet
+git clone https://github.com/nobleprog-inkaso-redis
 ```
 
 ## Redis Setup
