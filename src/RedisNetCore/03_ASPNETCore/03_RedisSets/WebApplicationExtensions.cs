@@ -10,24 +10,24 @@ public static class WebApplicationExtensions
 
         var db = mutex.GetDatabase();        
 
-        await db.SetAddAsync("size:Small", "product:1");
-        await db.SetAddAsync("size:Small", "product:2");
-        await db.SetAddAsync("size:Small", "product:3");
+        await db.SetAddAsync("size:small", "product:1");
+        await db.SetAddAsync("size:small", "product:2");
+        await db.SetAddAsync("size:small", "product:3");
 
-        await db.SetAddAsync("size:Medium", "product:1");
-        await db.SetAddAsync("size:Medium", "product:3");
-        await db.SetAddAsync("size:Medium", "product:4");
+        await db.SetAddAsync("size:medium", "product:1");
+        await db.SetAddAsync("size:medium", "product:3");
+        await db.SetAddAsync("size:medium", "product:4");
 
-        await db.SetAddAsync("size:Large", "product:1");
-        await db.SetAddAsync("size:Large", "product:2");
-        await db.SetAddAsync("size:Large", "product:5");
+        await db.SetAddAsync("size:large", "product:1");
+        await db.SetAddAsync("size:large", "product:2");
+        await db.SetAddAsync("size:large", "product:5");
 
-        await db.SetAddAsync("color:Red", "product:1");
-        await db.SetAddAsync("color:Red", "product:3");
-        await db.SetAddAsync("color:Red", "product:4");
+        await db.SetAddAsync("color:red", "product:1");
+        await db.SetAddAsync("color:red", "product:3");
+        await db.SetAddAsync("color:red", "product:4");
 
-        await db.SetAddAsync("color:Green", "product:2");
-        await db.SetAddAsync("color:Green", "product:5");
+        await db.SetAddAsync("color:green", "product:2");
+        await db.SetAddAsync("color:green", "product:5");
     }
 }
 

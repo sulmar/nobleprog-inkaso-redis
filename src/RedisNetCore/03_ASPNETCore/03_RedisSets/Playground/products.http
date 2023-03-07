@@ -1,0 +1,19 @@
+@host = localhost:7221
+
+@productId = 1
+@color = red
+@size = small
+
+###
+
+GET https://{{host}}/products/color/{{color}}
+
+###
+
+GET https://{{host}}/products/size/{{size}}
+
+### 
+
+GET https://{{host}}/products?size={{size}}&color={{color}}
+
+### 
