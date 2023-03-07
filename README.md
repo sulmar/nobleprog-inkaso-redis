@@ -85,7 +85,7 @@ docker-compose -f docker-compose-redis-cluster.yml up -d
 ```bash
 docker exec -it redis_1 redis-cli --cluster
 ```
-note: remember about -c parameter!
+**note: remember about -c parameter!**
 
 - When you want to remove cluster, use this command:
 
