@@ -16,6 +16,16 @@ app.MapGet("/", () => "Hello World!");
 // GET /products?Size=Large
 
 
+app.MapGet("/products/{size}", (string size, IConnectionMultiplexer muxer) =>
+{
+    var db = muxer.GetDatabase();
+    var items = db.SetMembers($"size:{size}");
+
+    var result = items.ToStringArray();
+
+    return Results.Ok(result);
+});
+
 
 await app.SeedData();
 
