@@ -10,6 +10,8 @@
   <ItemGroup>
     <PackageReference Include="Bogus" Version="34.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.3" />
+    <PackageReference Include="Scrutor.AspNetCore" Version="3.3.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.6.96" />
   </ItemGroup>
 
 </Project>
