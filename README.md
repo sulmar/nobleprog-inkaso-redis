@@ -72,3 +72,18 @@ EXIT
 Open browser at `http://localhost:8001/`
 
 
+
+## Redis Cluster Setup
+
+- Create Redis Cluster:
+```bash
+docker-compose -f docker-compose-redis-cluster.yml up -d
+```
+
+- Connect to master
+
+```bash
+docker exec -it redis_1 redis-cli --cluster
+```
+note: remember about -c parameter!
+
