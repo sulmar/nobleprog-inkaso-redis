@@ -28,6 +28,16 @@ public static class WebApplicationExtensions
 
         await db.SetAddAsync("color:green", "product:2");
         await db.SetAddAsync("color:green", "product:5");
+
+        var sizeKeys = new RedisKey[]
+        {
+            "size:small",
+            "size:medium",
+            "size:large",
+        };
+
+        await db.SetCombineAndStoreAsync(SetOperation.Union, "size:all", sizeKeys);
+        
     }
 }
 

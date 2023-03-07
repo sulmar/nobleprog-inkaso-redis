@@ -38,17 +38,12 @@ app.MapGet("/products/color/{color}", (string color, IConnectionMultiplexer muxe
 
 app.MapGet("/products/size/all", async (IConnectionMultiplexer muxer) =>
 {
+    var key = "size:all";
+    
     var db = muxer.GetDatabase();
 
-    var keys = new RedisKey[]
-    {
-        "size:small",
-        "size:medium",
-        "size:large",
-    };
-
-    var items = await db.SetCombineAsync(SetOperation.Union, keys);
-
+   var items = await db.SetMembersAsync(key);
+   
     var result = items.ToStringArray();
 
     return Results.Ok(result);
