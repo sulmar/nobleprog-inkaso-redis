@@ -58,7 +58,7 @@ public class CachedCustomerRepository : ICustomerRepository
         var key = $"{typeof(TValue).Name.ToLower()}:{id}";
 
         var db = _muxer.GetDatabase();
-        var value = db.StringGet(key); 
+        var value = await db.StringGetAsync(key); 
         
         if (!value.IsNull) 
         {
