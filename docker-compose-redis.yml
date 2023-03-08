@@ -1,7 +1,14 @@
 version: "3.9"
 services:
   redis:
-    container_name: redis-dotnet
-    image: redis/latest
+    container_name: redis-demo
+    image: redis:7.0.4-alpine
+    restart: always
     ports:
       - "6379:6379"      
+    command: redis-server --save 20 1 --loglevel warning --requirepass yoursecretpassword
+    volumes: 
+      - cache:/data
+volumes:
+  cache:
+    driver: local      
