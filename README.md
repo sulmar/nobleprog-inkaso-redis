@@ -83,7 +83,7 @@ docker-compose -f docker-compose-redis-cluster.yml up -d
 - Connect to master
 
 ```bash
-docker exec -it redis_1 redis-cli --c
+docker exec -it redis_1 redis-cli -c
 ```
 **note: remember about -c parameter!**
 
