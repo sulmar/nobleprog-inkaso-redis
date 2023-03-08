@@ -83,9 +83,7 @@ services:
 # and the cluster can be used by the service app container
   cluster_initiator:
     container_name: cluster_initiator
-    build:
-      context: redis
-      dockerfile: Dockerfile
+    image: "redis:latest"
     tty: true
     depends_on:
       - redis_1
@@ -94,6 +92,7 @@ services:
       - redis_4
       - redis_5
       - redis_6
+    command: "redis-cli --cluster create 173.18.0.2:6379 173.18.0.3:6379 173.18.0.4:6379 173.18.0.5:6379 173.18.0.6:6379 173.18.0.7:6379 --cluster-replicas 1 --cluster-yes"
     networks:
       redis_cluster_net:
         ipv4_address: 173.18.0.8
