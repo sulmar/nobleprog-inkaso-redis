@@ -87,6 +87,23 @@ docker exec -it redis_1 redis-cli -c
 ```
 **note: remember about -c parameter!**
 
+- Display information about Redis Cluster
+```
+CLUSTER INFO
+```
+
+tip: make sure `cluster_state:ok`
+
+- Display node information with ranges of hash slots:
+```
+CLUSTER NODES
+```
+
+- Display information about slots
+```
+ CLUSTER SHARDS
+```
+
 - When you want to remove cluster, use this command:
 
 ```bash
