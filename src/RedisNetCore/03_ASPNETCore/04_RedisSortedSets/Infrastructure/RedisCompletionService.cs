@@ -35,11 +35,11 @@ public class RedisCompletionService : ICompletionService
         {
             string prefix = word[..l];
             // ZADD key prefix
-            db.SortedSetAdd(key, member: prefix, score: 0);
+            db.SortedSetAdd(key, member: prefix, score: 0, CommandFlags.FireAndForget);
         }
 
         // ZADD key foo*
-        db.SortedSetAdd(key, member: $"{word}*", score: 0);
+        db.SortedSetAdd(key, member: $"{word}*", score: 0, CommandFlags.FireAndForget);
 
         progress?.Report(word);
     }
