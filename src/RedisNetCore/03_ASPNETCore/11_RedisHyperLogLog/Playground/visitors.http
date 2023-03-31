@@ -1,0 +1,10 @@
+
+@host = localhost:7114/
+
+
+###
+
+GET https://{{host}}
+Forwarded-For: 10.0.0.1
+
+###

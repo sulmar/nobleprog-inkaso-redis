@@ -53,13 +53,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_RedisLists", "02_DataStr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_RedisGeo", "09_Exercises\10_RedisGeo\10_RedisGeo.csproj", "{C50FAF3E-921B-4DDA-8D35-253FE14292D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_RedisBitmaps", "09_Exercises\06_RedisBitmaps\06_RedisBitmaps.csproj", "{E41EF058-9284-465A-BDF3-502892527306}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_RedisBitmaps", "09_Exercises\06_RedisBitmaps\06_RedisBitmaps.csproj", "{E41EF058-9284-465A-BDF3-502892527306}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_RedisLists", "09_Exercises\05_RedisLists\05_RedisLists.csproj", "{D0AC9426-D53B-4AC8-AC1C-42A9D75150F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_RedisLists", "09_Exercises\05_RedisLists\05_RedisLists.csproj", "{D0AC9426-D53B-4AC8-AC1C-42A9D75150F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_RedisStreams", "09_Exercises\10_RedisStreams\09_RedisStreams.csproj", "{7379C22B-A44A-4C86-9F7E-7A26BAAC5A8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_RedisStreams", "09_Exercises\10_RedisStreams\09_RedisStreams.csproj", "{7379C22B-A44A-4C86-9F7E-7A26BAAC5A8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_RedisTransactions", "09_Exercises\07_RedisTransactions\07_RedisTransactions.csproj", "{5246A2BF-84C4-4762-AD9B-47F9D975146A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_RedisTransactions", "09_Exercises\07_RedisTransactions\07_RedisTransactions.csproj", "{5246A2BF-84C4-4762-AD9B-47F9D975146A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_HyperLogLog", "11_HyperLogLog\11_HyperLogLog.csproj", "{A9443D61-305C-4A5F-9D16-D90A277A5CD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_RedisHyperLogLog", "03_ASPNETCore\11_RedisHyperLogLog\11_RedisHyperLogLog.csproj", "{327CBBA4-E41C-465B-B346-0293154ECADB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -167,6 +171,14 @@ Global
 		{5246A2BF-84C4-4762-AD9B-47F9D975146A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5246A2BF-84C4-4762-AD9B-47F9D975146A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5246A2BF-84C4-4762-AD9B-47F9D975146A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9443D61-305C-4A5F-9D16-D90A277A5CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9443D61-305C-4A5F-9D16-D90A277A5CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9443D61-305C-4A5F-9D16-D90A277A5CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9443D61-305C-4A5F-9D16-D90A277A5CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327CBBA4-E41C-465B-B346-0293154ECADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327CBBA4-E41C-465B-B346-0293154ECADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327CBBA4-E41C-465B-B346-0293154ECADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327CBBA4-E41C-465B-B346-0293154ECADB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -197,6 +209,8 @@ Global
 		{D0AC9426-D53B-4AC8-AC1C-42A9D75150F1} = {B847FFEE-8F09-4A27-97C1-5F04FCC648F3}
 		{7379C22B-A44A-4C86-9F7E-7A26BAAC5A8A} = {B847FFEE-8F09-4A27-97C1-5F04FCC648F3}
 		{5246A2BF-84C4-4762-AD9B-47F9D975146A} = {B847FFEE-8F09-4A27-97C1-5F04FCC648F3}
+		{A9443D61-305C-4A5F-9D16-D90A277A5CD9} = {D0711F71-7CF4-4617-8745-70EE7ECC2C3A}
+		{327CBBA4-E41C-465B-B346-0293154ECADB} = {055E382C-AD8B-4AFC-91C0-9FB0580C344B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {70112A9D-AA84-4D49-A6F9-6F027496376B}
